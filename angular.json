@@ -15,7 +15,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -37,6 +37,8 @@
           },
           "configurations": {
             "production": {
+              "aot": true,
+              "optimization": true,
               "budgets": [
                 {
                   "type": "initial",
