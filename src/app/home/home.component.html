@@ -1,0 +1,19 @@
+<div class="max-w-lg mx-auto my-10 bg-white rounded-lg shadow-md p-5 flex flex-col">
+    <img class="w-32 h-32 rounded-full mx-auto" [src]="user.photoUrl" alt="Profile picture">
+    <h2 class="text-center text-2xl font-semibold mt-3">{{ user.name }}</h2>
+    <p class="text-center text-gray-600 mt-1 mb-3">{{ user.email }}</p>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-fit mx-auto" (click)="handleLogout()">
+        Logout
+    </button>
+</div>
+
+<!-- {
+    "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjA1MTUwYTEzMjBiOTM5NWIwNTcxNjg3NzM3NjkyODUwOWJhYjQ0YWMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2ODY4NjcwNjgsImF1ZCI6IjYzNTU3NTMyNDM4Mi1mZmhlYW83YmN0YnNocXViOGc2ZTI1ZzZrNWFydjNiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwODU1NjA0ODI3NjYxOTkxMDk1MCIsImhkIjoicGxheXBvd2VybGFicy5jb20iLCJlbWFpbCI6InByaW5jZS5kYWxzYW5peWFAcGxheXBvd2VybGFicy5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiNjM1NTc1MzI0MzgyLWZmaGVhbzdiY3Ric2hxdWI4ZzZlMjVnNms1YXJ2M2JkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6IlByaW5jZSBEYWxzYW5peWEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFjSFR0ZlZGX0tEaWlKUTJGNTZRN2l1eFpGV3B3WlI1Z2hJdXFZTW11RkI9czk2LWMiLCJnaXZlbl9uYW1lIjoiUHJpbmNlIiwiZmFtaWx5X25hbWUiOiJEYWxzYW5peWEiLCJpYXQiOjE2ODY4NjczNjgsImV4cCI6MTY4Njg3MDk2OCwianRpIjoiZjA5MjY4ZGYxNzQ3YzBlNTYyMDk3NzBmMGY3YTJmNjRmZTQwODkyZSJ9.09xNAbbDE-9HWg8_ZRJ9THJrtviN7de2Y8i8xZeK_8yQNO0EcWXgjDZLhSb4-Cg5mRvNFC4my9Mis328Yg8KyqzcHAa2bCCEFPP7jlXnwhFuCMJgq-6sLmteuCRxbFY8xZdN3-z8weIrvWgy4R4F7KA0kWoVrtK3pEpHCzZmu5smj3DMplYn_CNfH_Y-3pCLbDYAstzhrGlKoyzztOOg8pZK9x22mPTnPidWu29LW2EG4aJGEqMpQ7YqsVBUEsoI0y2e8qGfmvK3nMzZR67YuQhhv83lnRzPAaqdCKKx8vPUlwh-ful2j-IkRAp724fSHuS1ghpLniawy32Oyt4_Cw",
+    "id": "108556048276619910950",
+    "name": "Prince Dalsaniya",
+    "email": "prince.dalsaniya@playpowerlabs.com",
+    "photoUrl": "https://lh3.googleusercontent.com/a/AAcHTtfVF_KDiiJQ2F56Q7iuxZFWpwZR5ghIuqYMmuFB=s96-c",
+    "firstName": "Prince",
+    "lastName": "Dalsaniya",
+    "provider": "GOOGLE"
+} -->
